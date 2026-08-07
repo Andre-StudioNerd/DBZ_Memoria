@@ -1,33 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Desafie seus amigos no clássico Jogo da memória diretamente no navegador."
+    />
+    <meta name="author" content="André" />
+    <meta name="robots" content="index, follow" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/login.css" />
 
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/login.css">
+    <script defer src="./js/login.js"></script>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Jogo da Memória | Login</title>
+  </head>
 
-  <script defer src="./js/login.js"></script>
-  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-  <title>Jogo da Memória | Login</title>
-</head>
+  <body>
+    <main>
+      <form class="login-form">
+        <div class="login__header">
+          <img src="./images/logo.png" alt="logo" />
+          <img src="./images/esferas.png" alt="brain icon" />
+          <h1>Jogo da memória</h1>
+        </div>
 
-<body>
-
-  <form class="login-form">
-
-    <div class="login__header">
-      <img src="./images/logo.png" alt="logo">
-      <img src="./images/esferas.png" alt="brain icon">
-      <h1>Jogo da memória</h1>
-    </div>
-
-    <input type="text" placeholder="Nome" class="login__input">
-    <button type="submit" class="login__button">Jogar</button>
-
-  </form>
-
-</body>
-
+        <input type="text" placeholder="Nome" class="login__input" />
+        <button type="submit" class="login__button">Jogar</button>
+      </form>
+    </main>
+  </body>
 </html>
