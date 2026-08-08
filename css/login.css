@@ -19,8 +19,6 @@
   width: 250px;
 }
 
-
-
 .login__header h1 {
   color: #333;
   font-size: 1.5em;
@@ -39,7 +37,7 @@
 }
 
 .login__button {
-  background-color: #DB8442;
+  background-color: #db8442;
   border: 3px solid #000;
   border-radius: 8px;
   color: #fff;
@@ -55,4 +53,9 @@
   border: 2px solid #969595;
   color: #aaa;
   cursor: auto;
+}
+
+.esferas {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
