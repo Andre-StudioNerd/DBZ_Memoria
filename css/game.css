@@ -80,6 +80,20 @@ header {
   opacity: 0.5;
 }
 
+.btn-logout {
+  background-color: #db8442;
+  border: 3px solid #000;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  padding: 10px;
+}
+
+.btn-logout:hover:not(:disabled) {
+  opacity: 0.9;
+  color: #000;
+}
+
 /* ==========================================
    Breakpoints Responsivos
    ========================================== */
