@@ -117,9 +117,6 @@ window.onload = () => {
 const btnLogout = document.querySelector(".btn-logout");
 
 btnLogout.addEventListener("click", () => {
-  // Limpa o nome do jogador salvo no LocalStorage
   localStorage.removeItem("player");
-
-  // Redireciona para a página de login
-  window.location = "../index.html"; // ou o caminho da sua página de login
+  window.location = "../index.html";
 });
